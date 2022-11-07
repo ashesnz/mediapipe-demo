@@ -13,7 +13,7 @@ spinner.ontransitionend = () => { spinner.style.display = 'none' }
 let activeEffect = 'mask'
 
 const backgroundImage = new Image()
-backgroundImage.src = 'beach.png'
+backgroundImage.src = 'dry_grass.jpg'
 
 backgroundImage.onload = async () => {
     let backgroundFill = canvasCtx.createPattern ( backgroundImage, 'no-repeat' )
