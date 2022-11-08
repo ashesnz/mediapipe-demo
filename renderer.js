@@ -79,7 +79,7 @@ backgroundImage.onload = async () => {
                     }
 
                     canvasElement.width = width
-                    canvasElement.height = height
+                    canvasElement.height = 900
                     await selfieSegmentation.send({image: input})
                 },
             }),
